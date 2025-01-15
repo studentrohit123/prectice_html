@@ -40,3 +40,43 @@ h1{
     padding-top: 110px;
     text-align: center;
 }
+img{
+  width: 25%;
+  height: 25%;
+
+}
+.row{
+  height: 300px;
+  width: 300px;
+  background-image: url(image.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+/* .column{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 4px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
